@@ -1,20 +1,37 @@
+[MIT]()
+
 # boob
-## Description 
-  boob 
-## Table of Contents  
+
+![Apache-License](https://img.shields.io/badge/Apache-License-orange)
+
+## Description
+
+boob
+
+## Table of Contents
+
 * [Installation](#installation)
-* [Usage](#usage)node
+* [Usage](#usage)
 * [License](#license)
 * [Contribution](#contribution)
 * [Tests](#tests)
 
 ## Installation
-boob 
-## Usage 
-boob 
+
+boob
+
+## Usage
+
+boob
+
 ## License
-MIT 
+
+Apache
+
 ## Contributing
-boob 
+
+boob
+
 ## Tests
-boob 
+
+boob
