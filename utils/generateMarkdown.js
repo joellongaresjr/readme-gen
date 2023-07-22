@@ -3,6 +3,7 @@
 function renderLicenseBadge(license) {
   if (license === "MIT") {
 }
+};
   // get the MIT badge
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -20,28 +21,31 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 ## Description 
-  ${data.description} 
+${data.description}
+
 ## Table of Contents  
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
 * [Contribution](#contribution)
 * [Tests](#tests)
 
 ## Installation
-${data.installation} 
-## Usage 
-${data.usage} 
-## Credits
-${data.credits} 
+${data.installation}
+
+## Usage
+${data.usage}
+
 ## License
-${data.license} 
+${data.license}
+
 ## Contributing
-${data.contributing} 
+${data.contributions}
+
 ## Tests
-${data.tests} 
+${data.tests}
+
 `;
-}
+};
 
 module.exports = generateMarkdown;

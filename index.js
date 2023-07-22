@@ -61,14 +61,9 @@ const questions = [
 function init() {
 
 inquirer
-  .prompt(
-    quesitons
-    /* Pass your questions in here */
-  )
+  .prompt(questions)
   .then((answers) => {
-    console.log(answers)
-    let markdown = generateMarkdown(answers)
-    // Use user feedback for... whatever!!
+   writeReadme(generateMarkdown(answers))
   }).catch((error) => {
     console.log(error);
   });
@@ -80,11 +75,13 @@ inquirer
 // > insert object of answers
 // invoke the writeToFile (which crated the readme)
 
-console.log("hello")
+
 // TODO: Create a function to write README file
 
-function writeReadme(path, data) {
-// create the readme
+function writeReadme(data) {
+    fs.writeFile('newREADME.md', data, (err) =>
+    err ? console.error(err) : console.log('Gz!')
+    )
 }
 
 // TODO: Create a function to initialize app
