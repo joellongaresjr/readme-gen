@@ -1,24 +1,17 @@
-// TODO: Include packages needed for this application
 const inquirer = require("inquirer")
 const generateMarkdown = require("./utils/generateMarkdown.js")
 const fs = require("fs")
-// add a package that would import generate file
-// export from "badmath"
-// to import we will use require key word ex const badmath = require('./badmath.js')
-// > use your own word to name the variable (not matching the 'badmath')
-// graders will go to terminal
-// node index.js will be excuted
-// TODO: Create an array of questions for user input
+
 const questions = [
     {
     type: "input",
     name: "title",
-    message: "Please provide the Title of your project",
+    message: "Please provide the Title of your project:",
     },
     {
     type: "input",
     name: "description",
-    message: "Please provide a description of your project"    
+    message: "Please provide a description of your project:"    
     },
     {
     type: "input",
@@ -67,25 +60,12 @@ inquirer
   }).catch((error) => {
     console.log(error);
   });
-}
-// ask the user questions - array 
-// store answers as {}
-// create a contant for the readme(function) generate markdown 
-// calling > calling generate markdown function 
-// > insert object of answers
-// invoke the writeToFile (which crated the readme)
-
-
-// TODO: Create a function to write README file
+};
 
 function writeReadme(data) {
     fs.writeFile('newREADME.md', data, (err) =>
     err ? console.error(err) : console.log('Gz!')
     )
-}
+};
 
-// TODO: Create a function to initialize app
-
-
-// Function call to initialize app
 init();

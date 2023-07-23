@@ -1,15 +1,9 @@
-[MIT]()
+# covid
+![MIT-License](https://img.shields.io/badge/MIT-License-red)
+## Description 
+sonam
 
-# boob
-
-![Apache-License](https://img.shields.io/badge/Apache-License-orange)
-
-## Description
-
-boob
-
-## Table of Contents
-
+## Table of Contents  
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
@@ -17,21 +11,21 @@ boob
 * [Tests](#tests)
 
 ## Installation
-
-boob
+medicine 
 
 ## Usage
-
-boob
+codeine 
 
 ## License
-
-Apache
+MIT
 
 ## Contributing
-
-boob
+sick people
 
 ## Tests
+test
 
-boob
+## Contact Me :) 
+* https://github.com/joellongaresjr
+* joellongaresjr@gmail.com
+
