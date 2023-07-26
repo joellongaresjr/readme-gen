@@ -7,6 +7,8 @@ Here is an example of what you can expect in your terminal!
 
 Video Walkthrough! Click ![here](https://drive.google.com/file/d/1XVJ-3aonA6prCSrucbKFHPsgwwKnu0Ba/view)
 
+Here is an sample of a new README file based on the users input within the terminal!
+![Readme.Sample](./Assets/images/Sample%20of%20new%20Readme.png)
 ## Technology Used
 * Node.js
 * Inquirer.js
