@@ -5,7 +5,7 @@ Welcome to my Readme-Generator! This application offers a dynamically generated 
 Here is an example of what you can expect in your terminal! 
 ![Terminal.Sample](./Assets/images/READMEGEN%20TERMINAL%20SAMPLE.png)
 
-Video Walkthrough! Click ![here](https://drive.google.com/file/d/1XVJ-3aonA6prCSrucbKFHPsgwwKnu0Ba/view)
+Video Walkthrough! Click [here](https://drive.google.com/file/d/1XVJ-3aonA6prCSrucbKFHPsgwwKnu0Ba/view)
 
 Here is an sample of a new README file based on the users input within the terminal!
 ![Readme.Sample](./Assets/images/Sample%20of%20new%20Readme.png)
